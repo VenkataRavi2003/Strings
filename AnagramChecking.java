@@ -12,6 +12,7 @@ class AnagramChecking{
 		}else{
 			System.out.println("\n"+s1+" && "+s2+" are not anagrams..!");
 		}
+		sc.close();
 	}
 	public static boolean isAnagrams(String s1,String s2){
 		char ch1[]=s1.toLowerCase().toCharArray();
