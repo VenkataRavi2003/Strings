@@ -6,5 +6,6 @@ class FindTheMiddleElementInTheString{
 		String str=sc.nextLine();
 		int middleElementIndex=str.length()/2;
 		System.out.println("\nMiddle Element In The -> "+str+" is : "+str.charAt(middleElementIndex));
+		sc.close();
 	}
 }
